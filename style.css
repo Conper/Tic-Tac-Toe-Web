@@ -1,0 +1,92 @@
+
+body {
+	background-image: url("img/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+  }
+  
+.content {
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    padding: 20px;
+  }
+
+#title {
+	text-align: center;
+	color: white;
+	text-shadow: 5px 5px 3px black, 4px 4px 5px blue;
+	font-size: 60px;
+	margin-bottom: 50px;
+}
+
+#turn {
+	color: #B2FF66;
+	text-shadow: 2px 2px 1px #009900, 4px 4px 3px black;
+	font-size: 40px;
+	margin-bottom: 40px;
+}
+
+table {
+	box-shadow: 5px 5px 3px black, 4px 4px 5px blue;
+	margin-bottom: 40px;
+}
+
+table, tr, td {
+	text-align: center;
+	border: 3px solid black;
+	border-collapse: separate;
+	background-color: #399878;
+	padding: 15px;
+}
+
+td {
+	background-color: #65FFB1;
+	padding-right: 42px;
+	padding-left: 42px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+}
+
+button {
+	border: none;
+	background-color: #65FFB1;
+	text-align: center;
+	font-size: 22px;
+}
+
+h1 {
+	color: #65FFB1;
+}
+
+#restart {
+	box-shadow: 5px 5px 3px black;
+	border: 2px solid black;
+	text-align: center;
+	text-shadow: 1px 1px 1px black, 1px 1px 1px blue;
+	background-color: #65FFB1;
+	color: black;
+	padding: 20px 25px;
+}
+
+#restart:hover {
+	box-shadow: 2px 2px 3px black;
+	border: 2px solid black;
+	text-align: center;
+	text-shadow: 1px 1px 1px black, 1px 1px 1px blue;
+	background-color: #399878;
+	color: black;
+	padding: 20px 25px;
+}
